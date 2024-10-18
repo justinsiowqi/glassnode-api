@@ -30,7 +30,7 @@ The DataCollector class fetches and process data from the GlassNode API.
 from data_collector import DataCollector
 
 # Initialize
-collector = CryptoDataCollector(api_key='your_api_key')
+collector = DataCollector(api_key='your_api_key')
 
 # Downloads Individual Metrics
 collector.process_data(btc_path_list, 'BTC')
